@@ -2,7 +2,7 @@
 - eval脚本参考了https://github.com/howard-hou/RWKV-X
 - 包含的完整的训练和评估流程
 - 模型参数94.9M
-- 配置和https://github.com/Alic-Li/Mini_RWKV_7一样，参数稍微多了一点是因为改了模型架构，多了个review_mlp矩阵
+- 配置和https://github.com/Alic-Li/Mini_RWKV_7 一样，参数稍微多了一点是因为改了模型架构，多了个review_mlp矩阵
 - 训练207个epoch，前205个ctx=512，第206个ctx=1024,第207个ctx=8192
 - loss看train_log.txt
 - 评估结果：
